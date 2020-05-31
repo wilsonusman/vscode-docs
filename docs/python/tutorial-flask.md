@@ -498,7 +498,7 @@ Because the three pages you create in the next section extend `layout.html`, it 
 1. After VS code opens `html.json`, add the following entry within the existing curly braces (the explanatory comments, not shown here, describe details such as how the `$0` line indicates where VS Code places the cursor after inserting a snippet):
 
     ```json
-    "Flask Tutorial: template extending layout.html": {
+    {"Flask Tutorial: template extending layout.html": {
         "prefix": "flextlayout",
         "body": [
             "{% extends \"layout.html\" %}",
